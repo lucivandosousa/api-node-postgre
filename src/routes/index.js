@@ -4,7 +4,7 @@ const ProductController = require("../controllers/ProductController")
 const route = Router()
 
 route.get("/", (req, res) => {
-  res.render("home")
+  res.json({ message: "API Node com PostgreSQL" })
 })
 
 route.post("/products", ProductController.cadastrarProduto)
