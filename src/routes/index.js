@@ -1,5 +1,4 @@
 const { Router } =  require("express")
-const conn = require("../database")
 const ProductController = require("../controllers/ProductController")
 
 const route = Router()
